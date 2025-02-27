@@ -1,0 +1,20 @@
+<깃허브 설정(필수X)>
+sudo apt update && sudo apt install gh -y
+gh auth login
+
+gh auth status
+
+<깃허브 설정(필수O)>
+git config --global user.name "beefed-up-geek"
+git config --global user.email "tenny.kwack@gmail.com"
+
+<깃허브 명령어>
+git reset --soft HEAD~1
+
+<파이썬>
+현재 환경에 설치된 버전들 확인
+pip install numpy pandas scipy matplotlib jupyter
+pip freeze > requirements.txt
+
+이후에 한번에 설치하는 방법
+pip install -r requirements.txt
